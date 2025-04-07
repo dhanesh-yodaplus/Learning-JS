@@ -1,0 +1,209 @@
+// is even with arrow fun
+
+// function isEven(n) {
+//     return n % 2 === 0;
+//   }
+
+// const isEven = n => n % 2 === 0;
+
+// console.log(isEven(11));
+
+
+//greeting
+
+// const greet = name => `Hello, ${name}!`;
+// console.log(greet("Dhanesh"));
+
+
+// square
+// const square = n => n * n;
+// console.log(square(5));
+
+
+// cube
+
+// const nums = [1, 2, 3];
+// const cubes = nums.map(n => n ** 3);
+// console.log(cubes);
+
+
+// filter 
+// const words = ['apple', 'banana', 'kiwi', 'grapefruit'];
+// const longWords = words.filter(word => word.length > 5);
+// console.log(longWords);
+
+//Users above 25
+// const users = [
+//     { name: 'A', age: 22 },
+//     { name: 'B', age: 28 },
+//     { name: 'C', age: 31 }
+//   ];
+
+//   const over25 = users.filter(u => u.age > 25).map(u => u.name);
+//   console.log(over25); 
+
+
+// const greet = (name)=>{
+//     console.log(`hello ${name}`)
+// }
+
+// greet("Dhanesh")
+
+// const square = (n) => {
+//     return n*n
+// }
+
+// console.log(square(5))
+
+// const getUser = () => {
+//     return{
+//         name: "Dhanesh",
+//         role: "Dev"
+//     }
+// }
+
+// console.log(getUser())
+
+// const getUser = () => ({
+//     name: "Dhanesh",
+//     role: "Dev"
+// })
+
+// console.log(getUser())
+
+
+// const numbers = [1, 2, 3, 4];
+
+// const doubled = numbers.map((num)=>{
+//     return num*2
+// })
+
+// console.log(doubled)
+
+// const sayHi = () => {
+//     return 'Hi there'
+// }
+
+// console.log(sayHi())
+
+// const multiply = (a,b)=>{
+//     return a * b
+// }
+
+// console.log(multiply(5,10))
+
+// const isEven = (n)=>{
+//     return n%2==0 ? true : false
+// }
+
+
+// console.log(isEven(11))
+
+// const getFirstChar = (s) => {
+//     return s[0]
+// }
+
+// console.log(getFirstChar("Dhanesh"))
+
+// const makeGreeting = (name)=>{
+//     return  `Hello, ${name} Welcome aboard`
+// }
+
+// console.log(makeGreeting("Dhanesh"));
+
+// const getLastChar = (s) => {
+//     return s[s.length-1]
+// }
+
+// console.log(getLastChar("Dhanesh"));
+
+// const getFirstAndLast = (s)=>{
+//     return `${s[0]}-${s[s.length-1]}`
+// }
+
+// console.log(getFirstAndLast("Dhanesh"));
+
+
+// const isLongWord = (s) => {
+//     return s.length>10 ? "too long" : "short"
+// }
+
+// console.log(isLongWord("Dhanesh_Krishna"))
+
+// const words = ["code", "developer", "js", "react", "hi", "backend"];
+
+// const longWords = words.filter(
+//     n => n.length > 4
+// );
+
+// console.log(longWords)
+
+// const nums = [3, 10, 17, 8, 6, 21, 33, 4];
+
+// const divByThree = nums.filter(n => n%3==0)
+
+// console.log(divByThree)
+
+// const words = ["Apple", "banana", "grape", "mango", "kiwi", "peach"];
+
+// const wordWithA = words.filter(word => word.toLowerCase().includes('a'))
+
+// console.log(wordWithA);
+
+
+// const users = [
+//     { name: "Alice", age: 25 },
+//     { name: "Bob", age: 30 },
+//     { name: "Charlie", age: 35 },
+//     { name: "David", age: 28 },
+//     { name: "Eve", age: 22 }
+//   ];
+  
+// const olderThan25 = users.filter(i => i["age"]>25)
+
+// console.log(olderThan25.map(user => user.name))
+
+// const users = [
+//     { name: "Alice", age: 25 },
+//     { name: "Bob", age: 30 },
+//     { name: "Charlie", age: 35 },
+//     { name: "David", age: 28 },
+//     { name: "Eve", age: 22 }
+//   ];
+
+//   const username = users.map(items =>{
+//     return items.name
+//   })
+
+//   console.log(username)
+
+// const nums = [1, 2, 3, 4, 5];
+
+// const square = nums.map(items => {
+//     return items**2
+// })
+
+// console.log(square);
+
+
+// const names = ["Alice", "Bob", "Charlie", "David"];
+
+// const greetings = names.map(items => {
+//     return `name : ${items}, greeting : Hello, ${items}`
+// })
+
+// greetings.map(i => console.log(i));
+
+// const products = [
+//     { name: "Laptop", price: 1000 },
+//     { name: "Phone", price: 700 },
+//     { name: "Tablet", price: 500 },
+//     { name: "Monitor", price: 300 },
+//     { name: "Mouse", price: 25 }
+//   ];
+
+// const filterMap = products.filter(item => item.price > 500)
+
+// const names = filterMap.map(i => i.name)
+
+// console.log(names);
