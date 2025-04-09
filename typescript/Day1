@@ -1,0 +1,146 @@
+// let greetings: string = "Hello Dhanesh";
+// console.log(greetings);
+
+// //number(no int or float specifically)
+// let userId: number = 123;
+
+// let mynum = 100; // ts type infernce kicks in
+
+// // mynum = 'a' // error
+
+// //boolean
+// let isLoggedIn: boolean = false;
+
+// function addTwo(num: number) {
+//   return num + 3;
+// }
+// console.log(addTwo(10));
+
+// function getUpper(s: string) {
+//   return s.toUpperCase();
+// }
+
+// getUpper("4");
+
+// let student = (name: string, roll: number) => {
+//   return `Welcome ${name}, your roll no is ${roll}`;
+// };
+
+// console.log(student("Dhanesh", 24));
+
+// type operation = "add" | "subtract" | "multiply" | "division";
+
+// const operations = (
+//   num1: number,
+//   num2: number,
+//   operation: operation
+// ): number | string => {
+//   switch (operation) {
+//     case "add":
+//       return num1 + num2;
+
+//     case "subtract":
+//       return num1 - num2;
+
+//     case "multiply":
+//       return num1 * num2;
+
+//     case "division":
+//       return num2 != 0 ? num1 / num2 : "cannot divide by zero";
+
+//     default:
+//       return "Please enter correct operations";
+//   }
+// };
+
+// console.log(operations(10, 0, "division"));
+
+// const createUser = (
+//   username: string,
+//   age?: number,
+//   isAdmin: boolean = true
+// ): string => {
+//   return `User ${username} is ${age} years old (Admin: ${isAdmin})`;
+// };
+
+// console.log(createUser("Dhanesh", 25, true));
+
+// console.log(createUser("Dhanesh", undefined, true));
+
+// console.log(createUser("Dhanesh"));
+
+// let names = ["Dhanesh", "Unnikrishnan", "Sobha"];
+
+// let printNames = names.map((name): string => {
+//   return name;
+// });
+
+// console.log(printNames);
+
+// const User = {
+//   name: "Dhanesh",
+//   email: "abc.gmail.com",
+//   isActive: true,
+// };
+
+// function createUser({ name: string, isPaid: boolean }) {}
+
+// createUser({ name: "Dhanesh", isPaid: false });
+
+// type User = {
+//   readonly _id: string;
+//   name: string;
+//   email: string;
+//   isActive: boolean;
+//   creditcard ?: number
+// };
+
+// let myUser: User = {
+//   _id: "12345",
+//   name: "Dhanesh",
+//   email: "abc@gmail.com",
+//   isActive: false,
+//   creditcard : 123456789
+// };
+
+// myUser.email = "h@gmail.com";
+
+// console.log(myUser);
+
+// type cardNumber = {
+//   cardnum: number;
+// };
+
+// type cardDate = {
+//   carddate: string;
+// };
+
+// type cardDetails = cardNumber & cardDate;
+
+// let card1: cardDetails = {
+//   cardnum: 1234567812345678,
+//   carddate: "12/26",
+// };
+
+// Arrays
+// const names : string[] = ["A","B","C"]
+
+// let eachName = names.forEach(element => {
+//     console.log(element);
+// });
+
+// type user = {
+//   name: string;
+//   id: number;
+// };
+
+// type admin = {
+//   username: string;
+//   id: number;
+// };
+
+// let newuser: user | admin = { name: "Dhanesh", id: 334 };
+
+// newuser = { username: "Dhanesh", id: 335 };
+
+// const data : (string|number)[] = [1,2,'a']
